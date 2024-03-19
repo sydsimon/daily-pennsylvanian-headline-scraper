@@ -135,3 +135,7 @@ But it is important to use it responsibly and ethically. Here are some guideline
 9. Document your scraping process thoroughly for replicability, transparency and accountability.
 
 10. Continuously re-evaluate your scraping program against applicable laws and ethical principles.
+
+## Scraper Modifications
+
+This scraper was modified to be scrape the DP Multmedia Headline. The first update that was made was changing the URL that we requested access to. I also changed the target_element to class = "medium-link" to correspond to the correct headline html code. finally I change the daily event monitor to "data/daily_pennsylvanian_multimedia_headlines.json.json" to create a new file which stores the data.
